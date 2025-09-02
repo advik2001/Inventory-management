@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs')
 
 const router = express.Router()
 
-const User = require('../Models/User')
+const User = require('../models/User')
 
 const { ensureAuthenticated } = require('../middlewares/auth');
 
