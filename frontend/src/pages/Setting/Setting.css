@@ -1,0 +1,88 @@
+
+.setting-page {
+  padding: 20px;
+}
+
+.setting-container {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.setting-header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: flex-end;
+}
+
+.setting-header p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  padding: 5px 20px;
+}
+
+.setting-form {
+  width: 60%;
+  height: 500px;
+  padding: 0 20px;
+}
+
+
+/* Form styling  */
+.register-form {
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #555;
+}
+
+.submit-btn {
+  width: 205px;
+  height: 50px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 40px;
+  right: 25px;
+}
+
+.submit-btn:hover {
+  background-color: #333;
+}

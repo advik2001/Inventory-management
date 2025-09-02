@@ -1,0 +1,11 @@
+Product Name,Product ID,Category,Price,Quantity,Unit,Expiry Date,Threshold Value
+Product Name 01,Product ID 8224,Appliances,821,30,packet,2025-10-28,3
+Product Name 02,Product ID 5916,Toys,1865,46,kg,2025-10-11,18
+Product Name 03,Product ID 9885,Sports,380,5,kg,2026-03-17,2
+Product Name 04,Product ID 5892,Toys,875,1,kg,2026-08-01,20
+Product Name 05,Product ID 8014,Clothing,1796,17,kg,2026-04-24,14
+Product Name 06,Product ID 9819,Sports,1065,21,pcs,2026-08-15,20
+Product Name 07,Product ID 9897,Books,1894,28,set,2025-11-15,5
+Product Name 08,Product ID 7181,Tools,1701,42,pair,2026-03-10,2
+Product Name 09,Product ID 5865,Clothing,1566,9,set,2025-10-04,4
+Product Name 10,Product ID 7107,Books,733,39,litre,2025-09-28,8

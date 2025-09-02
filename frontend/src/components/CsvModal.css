@@ -1,0 +1,189 @@
+
+/* Modal Overlay */
+.csv-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Modal Box */
+.csv {
+  background: white;
+  border-radius: 12px;
+  padding: 24px 28px;
+  width: 500px;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.csv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.csv-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.csv-header .close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #4b5563;
+  cursor: pointer;
+}
+
+
+/* Header */
+.csv-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.csv-header .subtext {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 6px 0 20px;
+}
+
+.csv-header .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4b5563;
+}
+
+
+/* Drop Box */
+.csv-drop-box {
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  padding: 32px 20px;
+  text-align: center;
+  margin-bottom: 24px;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Upload Icon */
+.csv-drop-box .upload-icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 12px;
+}
+
+/* Drop Box Text */
+.csv-drop-box .instruction {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.csv-drop-box .or-text {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 8px 0;
+}
+
+.csv-drop-box .browse-btn {
+  border: 1px solid #9ca3af;
+  background-color: white;
+  color: #111827;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+/* File Preview */
+.csv-drop-box .file-preview {
+  margin-top: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+  font-size: 14px;
+  color: #374151;
+}
+
+.csv-drop-box .download-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+
+/* Modal buttons */
+.csv-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.csv-cancel-btn {
+  background-color: #f3f4f6;
+  color: #111827;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.csv-primary-btn {
+  background-color: #002e2b;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+.csv-drop-box {
+	border: 2px dashed #ccc;
+	border-radius: 8px;
+	padding: 2rem;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.2s ease;
+}
+
+.csv-drop-box.active {
+	background-color: #f0f8ff;
+	border-color: #1e90ff;
+}
+
+.csv-file-preview {
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.download-icon {
+	width: 24px;
+	height: 24px;
+}
