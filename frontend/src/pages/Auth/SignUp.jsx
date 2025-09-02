@@ -136,7 +136,7 @@ const SignUp = () => {
                   onClick={() => setShowPassword((v) => !v)}
                   aria-label="Show password"
                 >
-                  👁
+                  <img src="/assets/eye.svg" alt="" />
                 </button>
               </div>
             </div>
@@ -159,7 +159,7 @@ const SignUp = () => {
                   onClick={() => setShowConfirm((v) => !v)}
                   aria-label="Show password"
                 >
-                  👁
+                  <img src="/assets/eye.svg" alt="" />
                 </button>
               </div>
             </div>
@@ -175,9 +175,17 @@ const SignUp = () => {
       {/* Right Panel */}
       <div className="auth-right-panel">
         <div className="login-welcome-block">
-          <h1>Welcome to<br />Company Name</h1>
-          {/* Insert illustration SVG or image here */}
-          <div className="login-illustration"></div>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+						<h1>
+							Welcome to
+							<br />
+							Company Name{' '}
+						</h1>
+						<img src='/assets/logo_big.svg' alt='' />
+					</div>
+          <div className="login-illustration">
+            <img src="/assets/login.svg" alt="" />
+          </div>
         </div>
       </div>
     </div>

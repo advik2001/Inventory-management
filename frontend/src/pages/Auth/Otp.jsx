@@ -96,9 +96,9 @@ function Otp() {
       {/* Right Panel */}
       <div className="auth-right-panel">
         <div className="login-welcome-block">
-          <h1>Welcome to<br />Company Name</h1>
-          {/* Insert illustration SVG or image here */}
-          <div className="login-illustration"></div>
+          <img src='/assets/rocket.svg' alt='' />
+          {/* <h1>Welcome to<br />Company Name</h1>
+          <div className="login-illustration"></div> */}
         </div>
       </div>
     </div>

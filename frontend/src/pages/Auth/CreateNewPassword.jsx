@@ -124,7 +124,7 @@ function CreateNewPassword() {
                   onClick={() => setPasswordVisible((v) => !v)}
                   aria-label="Show password"
                 >
-                  👁
+                  <img src="/assets/eye.svg" alt="" />
                 </button>
               </div>
               <a href="/forgot-password" className="login-forgot">Forgot Password?</a>
@@ -138,9 +138,7 @@ function CreateNewPassword() {
       {/* Right Panel */}
       <div className="auth-right-panel">
         <div className="login-welcome-block">
-          <h1>Welcome to<br />Company Name</h1>
-          {/* Insert illustration SVG or image here */}
-          <div className="login-illustration"></div>
+          <img src='/assets/girl.svg' alt='' />
         </div>
       </div>
     </div>
